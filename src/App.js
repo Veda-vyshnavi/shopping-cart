@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import Product from './components/Product';
+import Cart from './components/cart';
+import Checkout from './components/checkout';
 
 function App() {
+  const [cartItems, setCartItems] = useState([]);
+  const [cartCount, setCartCount] = useState(0);
+
+  const incrementCart = (item) => {
+    setCartItems([...cartItems, item]);
+    setCartCount(cartCount + 1); 
+  };
+
+  const removeFromCart = (item) => {
+    setCartItems(cartItems.filter(cartItem => cartItem.id !== item.id)); 
+    setCartCount(cartCount - 1); 
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar cartCount={cartCount} /> {/* Pass cartCount to Navbar */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Product incrementCart={incrementCart} />} />
+        <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} />} /> {/* Pass cartItems and removeFromCart to Cart */}
+        <Route path="/checkout" element={<Checkout />} />
+      </Routes>
+    </Router>
   );
 }
 
