@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.289301e3.css",
+    "main.js": "/shopping-cart/static/js/main.62ddb34e.js",
+    "static/js/453.8ab44547.chunk.js": "/shopping-cart/static/js/453.8ab44547.chunk.js",
+    "static/media/T-shirt.png": "/shopping-cart/static/media/T-shirt.c23fda955a490a6c6e35.png",
+    "static/media/smartwatch.png": "/shopping-cart/static/media/smartwatch.d02aeb248df94ab1f753.png",
+    "static/media/sherlockhomes.png": "/shopping-cart/static/media/sherlockhomes.41a38f28806884afb7f6.png",
+    "static/media/watch.png": "/shopping-cart/static/media/watch.5c1c76a65fb94a247975.png",
+    "static/media/ikigai.png": "/shopping-cart/static/media/ikigai.538b1ea157bb2caf696b.png",
+    "static/media/shoes.png": "/shopping-cart/static/media/shoes.7ea5d0b477aff7fee0cc.png",
+    "static/media/set.png": "/shopping-cart/static/media/set.c21290d513f5c6fe369d.png",
+    "static/media/atomic-habits.png": "/shopping-cart/static/media/atomic-habits.25af7f337920f49be23f.png",
+    "static/media/twisted.png": "/shopping-cart/static/media/twisted.c4e2a85d788c3a2b283e.png",
+    "static/media/puzzle.png": "/shopping-cart/static/media/puzzle.470fadd391f9769f1ce0.png",
+    "static/media/power.png": "/shopping-cart/static/media/power.73371e7634bc0b98566a.png",
+    "static/media/Shirt.png": "/shopping-cart/static/media/Shirt.26e7bc7f1ec35e2cfaa7.png",
+    "static/media/lego.png": "/shopping-cart/static/media/lego.203b3f7b5c8d5e6393cf.png",
+    "static/media/transformer.png": "/shopping-cart/static/media/transformer.d4f555bb648856acf6a4.png",
+    "static/media/handbag.png": "/shopping-cart/static/media/handbag.b01f68e929eb44806295.png",
+    "static/media/speaker.png": "/shopping-cart/static/media/speaker.117a90a1af4fc64299ef.png",
+    "static/media/smartphone.png": "/shopping-cart/static/media/smartphone.d6193fc0ee3954b72f62.png",
+    "static/media/heels.png": "/shopping-cart/static/media/heels.a569ae1716d82ad63176.png",
+    "static/media/neckband.png": "/shopping-cart/static/media/neckband.d9c519913e24a4a6c47c.png",
+    "static/media/cordset.png": "/shopping-cart/static/media/cordset.29fbda2e2983b50a23eb.png",
+    "static/media/sunglasses.png": "/shopping-cart/static/media/sunglasses.96819e4168ed97f8f326.png",
+    "static/media/gaming.png": "/shopping-cart/static/media/gaming.26abdc324863e5e35bc4.png",
+    "static/media/saree.png": "/shopping-cart/static/media/saree.97c8e74de44fcb7d561c.png",
+    "static/media/airdope.png": "/shopping-cart/static/media/airdope.2e49d20f442e4691c692.png",
+    "static/media/Pants.png": "/shopping-cart/static/media/Pants.a5b7a4a48e32744d93f2.png",
+    "index.html": "/shopping-cart/index.html",
+    "main.289301e3.css.map": "/shopping-cart/static/css/main.289301e3.css.map",
+    "main.62ddb34e.js.map": "/shopping-cart/static/js/main.62ddb34e.js.map",
+    "453.8ab44547.chunk.js.map": "/shopping-cart/static/js/453.8ab44547.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.289301e3.css",
+    "static/js/main.62ddb34e.js"
+  ]
+}
